@@ -1,4 +1,4 @@
-# Cantina UCB - Sistema de Gestão e Caixa 🥪🥤
+# Cantina UCB - Sistema de Gestão e Caixa 
 
 Sistema desenvolvido em linguagem **C** para gerenciar o atendimento, o cálculo de pedidos, simulações de descontos e relatórios de vendas de uma cantina acadêmica. O projeto conta com validações robustas de entrada de dados, tratamento de erros e uma calculadora integrada.
 
