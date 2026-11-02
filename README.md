@@ -6,8 +6,8 @@ Sistema desenvolvido em linguagem **C** para gerenciar o atendimento, o cálculo
 
 ## 🚀 Funcionalidades do Sistema
 
-O programa apresenta um menu interativo com 5 opções principais:
-
+### O programa apresenta um menu interativo com 5 opções principais:
+```
 1. **Novo Pedido:**
    * Permite escolher produtos por código com base em um cardápio pré-definido.
    * Solicita a quantidade desejada de cada item (validando valores maiores que zero).
@@ -33,7 +33,7 @@ O programa apresenta um menu interativo com 5 opções principais:
    * Encerra a execução do programa com segurança.
 
 ---
-
+````
 ## 📋 Cardápio e Regras de Negócio
 
 ### Produtos Disponíveis
@@ -45,13 +45,15 @@ O programa apresenta um menu interativo com 5 opções principais:
 | **4** | Salgado | R$ 7,00 |
 | **5** | Café | R$ 4,00 |
 
+
 ### Faixas de Desconto Progressivo
+```
 O desconto é aplicado de acordo com o valor total bruto do pedido:
 * **Abaixo de R$ 30,00:** `0%` de desconto
 * **De R$ 30,00 a R$ 59,99:** `5%` de desconto
 * **De R$ 60,00 a R$ 99,99:** `10%` de desconto
 * **R$ 100,00 ou mais:** `15%` de desconto
-
+```
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -62,7 +64,7 @@ O desconto é aplicado de acordo com o valor total bruto do pedido:
 ---
 
 ## ⚙️ Como Compilar e Executar
-
+````
 Certifique-se de ter um compilador C instalado em sua máquina (como **GCC**, **Clang** ou **MinGW**).
 
 ### 1. Clonar ou baixar o repositório
@@ -72,3 +74,4 @@ Salve o código-fonte em um arquivo chamado `cantina.c`.
 Abra o terminal na pasta onde o arquivo foi salvo e execute o comando de compilação:
 ```bash
 gcc cantina.c -o cantina
+````
