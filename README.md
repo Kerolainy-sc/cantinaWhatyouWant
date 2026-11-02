@@ -1,12 +1,12 @@
-# Cantina UCB - Sistema de Gestão e Caixa 
+# Sistema de Gestão e Caixa | cantina WhatyouWant
 
-Sistema desenvolvido em linguagem **C** para gerenciar o atendimento, o cálculo de pedidos, simulações de descontos e relatórios de vendas de uma cantina acadêmica. O projeto conta com validações robustas de entrada de dados, tratamento de erros e uma calculadora integrada.
+*Sistema desenvolvido em linguagem **C** para gerenciar o atendimento, o cálculo de pedidos, simulações de descontos e relatórios de vendas de uma cantina acadêmica. O projeto conta com validações robustas de entrada de dados, tratamento de erros e uma calculadora integrada.*
 
 ---
 
 ## 🚀 Funcionalidades do Sistema
 
-### O programa apresenta um menu interativo com 5 opções principais:
+### ⤷ O programa apresenta um menu interativo com 5 opções principais:
 ```
 1. **Novo Pedido:**
    * Permite escolher produtos por código com base em um cardápio pré-definido.
@@ -32,8 +32,10 @@ Sistema desenvolvido em linguagem **C** para gerenciar o atendimento, o cálculo
 0. **Sair:**
    * Encerra a execução do programa com segurança.
 
----
+
 ````
+---
+
 ## 📋 Cardápio e Regras de Negócio
 
 ### Produtos Disponíveis
